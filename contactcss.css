@@ -1,0 +1,10 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.form{
+	
+	margin-top: 90px;
+	background-color: rgba(203,232,213,0.3);
+}

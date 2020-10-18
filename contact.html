@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Contact us</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="contactcss.css">
+	<style type="text/css" media="screen">
+		*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+.form{
+	margin-top: 90px;
+	background-color: rgba(203,232,213,0.3);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+padding: 30px 30px;
+border-radius: 8px;
+text-align: center;box-shadow: 0 0 15px 3px black;
+font-family: sans-serif vardana;
+}
+body{
+	background-color: #ffa5a5;
+}
+
+	</style>
+</head>
+<body>
+	
+
+	<div class="form-group m-auto w-50  form">
+		<h2>Contac Us Login Form</h2>
+		<form class="fomr" action="contact_submit" method="get" accept-charset="utf-8">
+			<div class="form-group">
+				<label><i class="fa fa-user"> User Name :</i> </label>
+				<input type="text" name="name" value="">
+			</div>
+			<div class="form-group">
+				<label> <i class="fa fa-envelope"> Email :</i> </label>
+				<input type="text" name="email" value="" />
+			</div>
+			<div class="form-group">
+				<label> <i class="fa fa-table"> DOB :</i> </label>
+				<input type="date" name="dob" value="">
+			</div>
+			<div class="form-group">
+				
+			Phone Number :	<input type="number" name="number" >
+			</div>
+			<div class="form-group">
+				<label> <i class="fa fa-mars-double"> Gender :</i> </label>
+ Male <input type="radio" name="male">
+ Female <input type="radio" name="female">
+			</div>
+			<div class="form-group">
+				<label> <i class="fa fa-lock"> Password :</i> </label>
+				<input type="Password" name="password" value="">
+			</div>
+			<div class="form-group">
+				
+				<input type="submit" name="submit" value="Register" class="btn btn-success">
+			</div>
+
+		</form>
+
+
+
+</body>
+</html>
